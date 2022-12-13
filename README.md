@@ -19,3 +19,22 @@ We also converted Type to numerical data by using
 df.replace({'clicks': 0, 'carts': 1,'orders':2}, inplace=True)
 
 <img src="sns_pairplot.jpg" alt="Alt text" title="Pair Plots of all Features">
+
+## Modeling
+4  different Machine Learning algorithms were used:
+- Unsupervised
+  - K-means Clustering
+- Supervised
+  - K-Nearest Neighbors
+  - Logistic Regression
+  - Decision Trees
+ 
+Small samples were originally used so program would run quicker 
+Models were then chosen based on accuracy score to compare between others
+
+## Findings
+After performing the models we've determined KNN was the best model because of its accuracy rate with the testing data.
+
+We can probably receive a better model if we are able to manipulate existing features 
+
+Due to the fact that the dataset was large we couldn’t properly include every data point but there might be ways to work with big data that we don’t know at the moment
