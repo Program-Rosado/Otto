@@ -18,4 +18,4 @@ We also converted Type to numerical data by using
 
 df.replace({'clicks': 0, 'carts': 1,'orders':2}, inplace=True)
 
-
+![My Image][sns_pairplot.jpg]
