@@ -40,3 +40,7 @@ We can probably receive a better model if we are able to manipulate existing fea
 Due to the fact that the dataset was large we couldn’t properly include every data point but there might be ways to work with big data that we don’t know at the moment
 
 ### Information about the competition result: Coming Soon!
+
+## Sources 
+https://www.kaggle.com/competitions/otto-recommender-system/overview
+https://www.kaggle.com/code/junjitakeshima/otto-easy-understanding-for-beginner-en
