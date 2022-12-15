@@ -88,7 +88,7 @@ kmeans = cluster.KMeans(n_clusters=num_clusters, init='random',
     max_iter=300, 
     tol=1e-04, random_state=42)
 kmeans.fit(train_df)
-predictions  = kmeans.predict(train_df)
+predictions  = kmeans.predict(test_df)
 kmeans.cluster_centers_
 for i in range(num_clusters):
     f=newData[newData['Clusters']==i]['aid']
